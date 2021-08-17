@@ -1,4 +1,6 @@
 # loteriawebapp 0.9
 
-We are still working on the project there will be new features and improvements in the app
+We are still working on the project there will be new features and improvements in the app.
+
+# Notes
 the images are not included if you need them please send me a message 

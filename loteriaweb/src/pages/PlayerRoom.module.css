@@ -1,0 +1,16 @@
+.player-room {
+  width: 100%;
+  min-height: 100%;
+  background: url("../assets/images/bg_menub2_0.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.player-room > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem ;
+}

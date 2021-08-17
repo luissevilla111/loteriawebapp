@@ -1,0 +1,22 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/bckg_main2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .hero-content {
+  width: 90%;
+  margin: 0 auto;
+}
+.hero h1 {
+  color: var(--platinum);
+  text-align: center;
+}

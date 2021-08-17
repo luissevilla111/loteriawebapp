@@ -1,0 +1,55 @@
+.background {
+  width: 100%;
+  min-height: 100%;
+  background: url("../assets/images/backhills.png");
+  /* background: url("../assets/images/figures/spr_posicion_baraja_0.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992PX){
+    .background{
+        display: flex;
+        align-items: center;
+    
+    }
+  }
+
+.all-cards {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+
+@media (min-width: 768px) {
+  .all-cards {
+    width: 93%;
+    
+  }
+}
+
+.figure {
+  flex-basis: calc(16.6% - 1rem);
+  
+}
+
+@media (min-width: 768px) {
+  .figure {
+    flex-basis: calc(11.11% - 1rem);
+  }
+}
+
+
+@media (min-width: 992px) {
+    .figure {
+      flex-basis: calc(6.75% - 1rem);
+      
+    }
+  }
